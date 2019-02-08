@@ -112,6 +112,7 @@ else:
 print('IDN: {}'.format(idnData))
 print('Offsets: {} V, {} V'.format(offs1, offs2))
 print('Scales: {} V/div, {} V/div'.format(scal1, scal2))
+print('Time intervals: {} s, {} s'.format(data1[1], data2[1]))
 for k1, v1 in config.items():
     print(k1)
     for k2, v2 in v1.items():
